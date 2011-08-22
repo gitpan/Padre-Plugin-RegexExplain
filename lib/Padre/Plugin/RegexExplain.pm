@@ -13,11 +13,11 @@ use Wx qw(:everything);
 
 our @ISA = qw(Padre::Plugin);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub plugin_name { return 'RegexExplain' }
 
-sub padre_interface { 'Padre::Plugin' => 0.43 }
+sub padre_interfaces { 'Padre::Plugin' => 0.43 }
 
 sub menu_plugins_simple {
     my $self = shift;
@@ -95,7 +95,7 @@ Padre::Plugin::RegexExplain - A Padre plugin for Regex explainations
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

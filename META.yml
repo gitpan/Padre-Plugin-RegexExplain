@@ -15,4 +15,4 @@ name: Padre-Plugin-RegexExplain
 requires:
   Padre: 0.43
   YAPE::Regex::Explain: 3.011
-version: 0.01
+version: 0.02

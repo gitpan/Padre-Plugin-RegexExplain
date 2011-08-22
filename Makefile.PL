@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     'Padre' => '0.43',
     'YAPE::Regex::Explain' => '3.011'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
